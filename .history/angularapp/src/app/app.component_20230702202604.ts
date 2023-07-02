@@ -11,7 +11,7 @@ import { ApiService } from './api.service';
 export class AppComponent {
     title = 'The Royal Library App';
 
-    bookData: any;
+    bookData: String;
     constructor(private api: ApiService) { }
 
     ngOnInit() {
