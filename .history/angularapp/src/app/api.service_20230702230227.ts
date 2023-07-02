@@ -12,8 +12,9 @@ export class ApiService {
     constructor( private http:HttpClient ) { }
 
     getBooks() {
-        const API_KEY='AIzaSyDUvvrEu5dteaxqFlUpj2cHRd-kvzXCPn4';
-        return this.http.get('https://www.googleapis.com/books/vl/volumes?g=trees&keyes&key='+API_KEY);
+        const proxyurl = "https://cors-anywhere.herokuapp.com/";
+        const API_KEY='AIzaSyDUvvrEu5dteaxqFlUpj2cHRd-kvzXCPn4'
+        return this.http.get(proxyurl+'https://www.googleapis.com/books/vl/volumes?g=trees&key=API_KEY');
     }
 
 }

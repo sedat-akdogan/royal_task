@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sedatakdogan/Desktop/Royal--Tasks/royal_task/webapi/webapi.csproj": {}
+    "/Users/sedatakdogan/Desktop/royal_task/webapi/webapi.csproj": {}
   },
   "projects": {
-    "/Users/sedatakdogan/Desktop/Royal--Tasks/royal_task/webapi/webapi.csproj": {
+    "/Users/sedatakdogan/Desktop/royal_task/webapi/webapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sedatakdogan/Desktop/Royal--Tasks/royal_task/webapi/webapi.csproj",
+        "projectUniqueName": "/Users/sedatakdogan/Desktop/royal_task/webapi/webapi.csproj",
         "projectName": "webapi",
-        "projectPath": "/Users/sedatakdogan/Desktop/Royal--Tasks/royal_task/webapi/webapi.csproj",
+        "projectPath": "/Users/sedatakdogan/Desktop/royal_task/webapi/webapi.csproj",
         "packagesPath": "/Users/sedatakdogan/.nuget/packages/",
-        "outputPath": "/Users/sedatakdogan/Desktop/Royal--Tasks/royal_task/webapi/obj/",
+        "outputPath": "/Users/sedatakdogan/Desktop/royal_task/webapi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sedatakdogan/.nuget/NuGet/NuGet.Config"

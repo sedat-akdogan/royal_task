@@ -5,15 +5,14 @@ import { HttpClient } from '@angular/common/http';
     providedIn: 'root'
 })
 
-
+const proxyurl = "https://cors-anywhere.herokuapp.com/";
 
 export class ApiService {
 
     constructor( private http:HttpClient ) { }
 
     getBooks() {
-        const API_KEY='AIzaSyDUvvrEu5dteaxqFlUpj2cHRd-kvzXCPn4';
-        return this.http.get('https://www.googleapis.com/books/vl/volumes?g=trees&keyes&key='+API_KEY);
+        return this.http.get('proxyurlhttps://www.googleapis.com/books/vl/volumes');
     }
 
 }
