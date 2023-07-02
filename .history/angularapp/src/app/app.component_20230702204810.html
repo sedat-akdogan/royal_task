@@ -1,0 +1,10 @@
+<h1>{{ title }}</h1>
+
+<h2>
+    Welcome to {{ title }}!
+    <*ngFor='let book of bookData'
+        {{book.title}}
+        Author: {{book.author}}
+        Publisher: {{book.publisher}}
+    
+</h2>

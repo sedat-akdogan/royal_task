@@ -1,0 +1,9 @@
+<h1>{{ title }}</h1>
+
+<h2>
+    Welcome to {{ title }}!
+    <p>
+        <app-data *ngFor= 'let country of countryData' app-data [country]="country">
+        </app-data>
+      </p>
+</h2>
