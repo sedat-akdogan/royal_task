@@ -1,0 +1,7 @@
+li {
+    width: 280px;
+    height: 330px;
+    overflow: hidden;
+    border-radius: 5px;
+    cursor: pointer;
+}

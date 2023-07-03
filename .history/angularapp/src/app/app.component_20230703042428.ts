@@ -15,7 +15,7 @@ export class AppComponent {
     book: any;
     data: any;
     constructor(private api: ApiService) {
-        
+        this.data?.items?.find((_books: any) => this.book.id === bookId)
     }
 
     ngOnInit() {

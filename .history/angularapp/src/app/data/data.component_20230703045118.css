@@ -1,5 +1,6 @@
 li {
-    width: 500px;
+    width: 280px;
+    height: 330px;
     overflow: hidden;
     cursor: pointer;
 }

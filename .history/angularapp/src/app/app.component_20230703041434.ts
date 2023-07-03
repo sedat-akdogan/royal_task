@@ -12,9 +12,7 @@ export class AppComponent {
     title = 'The Royal Library';
 
     bookData: any;
-    book: any;
-    data: any;
-    constructor(private api: ApiService) {
+    constructor(private api: ApiService) { 
         
     }
 

@@ -14,4 +14,7 @@ export class DataComponent {
         // this.router.navigate(['search', form.value]);
         console.log("selected" + bookId)
     }
+
+    
+
 }

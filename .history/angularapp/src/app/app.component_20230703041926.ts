@@ -12,10 +12,9 @@ export class AppComponent {
     title = 'The Royal Library';
 
     bookData: any;
-    book: any;
-    data: any;
+    bookDetails: any;
     constructor(private api: ApiService) {
-        
+        this.bookDetails = this.api.getBooks().
     }
 
     ngOnInit() {

@@ -13,7 +13,6 @@ export class AppComponent {
 
     bookData: any;
     book: any;
-    data: any;
     constructor(private api: ApiService) {
         
     }

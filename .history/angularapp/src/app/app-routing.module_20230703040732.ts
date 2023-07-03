@@ -8,6 +8,10 @@ const routes: Routes = [
         path: '',
         component: AppComponent,
     },
+    {
+        path: 'details/:id',
+        component: DetailsComponent,
+    },
 
 ];
 

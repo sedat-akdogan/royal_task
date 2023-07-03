@@ -1,11 +1,12 @@
 .h2 {
     width: 100%;
-    background-color: #9dbfef;
+    height: 60px;
+    background-color: #323a45;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     position: fixed;
-    top: 100;
+    top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 4;
     }
