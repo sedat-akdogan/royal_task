@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input  } from '@angular/core';
 
 @Component({
     selector: 'app-data',
@@ -6,13 +6,12 @@ import { Component, OnInit, Input } from '@angular/core';
     styleUrls: ['./data.component.css']
 })
 export class DataComponent {
-    [x: string]: any;
 
     @Input() book: any;
 
     onClick(bookId: string) {
-        // this.router.navigate(['search', form.value]);
-        console.log("selected" + bookId)
+        this.router.navigate(['search', form.value]);
+        console.log("selected"+ bookId)
     }
 
 }

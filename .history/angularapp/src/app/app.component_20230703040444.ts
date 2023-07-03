@@ -16,7 +16,7 @@ export class AppComponent {
 
     ngOnInit() {
         this.api.getBooks().subscribe((data: any) => {
-            console.log(data);
+            // console.log(data);
             this.bookData = data?.items;
         });
     }
