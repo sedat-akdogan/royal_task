@@ -11,7 +11,7 @@ export class DataComponent {
 
     onClick(bookId: string) {
         // this.router.navigate(['search', form.value]);
-        console.log("selected"+ bookId)
+        console.log("")
     }
 
 }

@@ -15,10 +15,11 @@ export class AppComponent {
     constructor(private api: ApiService) { }
 
     ngOnInit() {
-        this.api.getBooks().subscribe((data: any) => {
+        this.api.getBooks().subscribe((data) => {
             console.log(data);
-            this.bookData = data?.items;
+            this.bookData = data?;
         });
     }
 
 }
+

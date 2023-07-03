@@ -13,7 +13,7 @@ export class ApiService {
 
     getBooks() {
         const API_KEY='AIzaSyDUvvrEu5dteaxqFlUpj2cHRd-kvzXCPn4';
-        return this.http.get('https://www.googleapis.com/books/v1/volumes?q=trees=');
+        return this.http.get('https://www.googleapis.com/books/vl/volumes?g=trees&maxResults=39&keyes&key='+API_KEY);
     }
 
 }
